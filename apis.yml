@@ -8,14 +8,12 @@ description: >-
   leaders on topics ranging from distributed systems, cloud computing, databases,
   and programming languages to AI, machine learning, and the business of software.
 type: Index
-image: 
-  https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
+  - Media
   - Podcasts
   - Software Engineering
-  - Media
-url: 
-  https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/apis.yml
+url: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-03-24'
 specificationVersion: '0.19'
@@ -32,9 +30,9 @@ apis:
     humanURL: https://softwareengineeringdaily.com/
     baseURL: https://softwareengineeringdaily.com
     tags:
-      - RSS
-      - Podcasts
       - Feed
+      - Podcasts
+      - RSS
       - Syndication
     properties:
       - type: Documentation
@@ -50,20 +48,18 @@ apis:
       user accounts, bookmarks, playback tracking, upvotes, comments, and search.
       API documentation is available in Swagger format at the /api/docs path.
       The codebase is MIT-licensed and available on GitHub.
-    humanURL: 
-      https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
+    humanURL: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
     baseURL: https://softwareengineeringdaily.com
     tags:
-      - REST
-      - Podcasts
       - Episodes
       - Open Source
+      - Podcasts
+      - REST
     properties:
       - type: Documentation
         url: https://softwareengineeringdaily.github.io/Backend/gettingstarted/
       - type: GitHubRepository
-        url: 
-          https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
+        url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
 common:
   - url: https://softwareengineeringdaily.com/
     name: Software Engineering Daily Website
@@ -80,15 +76,13 @@ common:
   - url: https://softwareengineeringdaily.com/2017/07/05/new-topic-feeds/
     name: Topic RSS Feeds
     type: RSSFeeds
-  - url: 
-      https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
+  - url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
     name: Backend API Repository
     type: GitHubRepository
   - url: https://softwareengineeringdaily.github.io/Backend/gettingstarted/
     name: API Getting Started Guide
     type: Documentation
-  - url: 
-      https://podcasts.apple.com/podcast/software-engineering-daily/id1019576853
+  - url: https://podcasts.apple.com/podcast/software-engineering-daily/id1019576853
     name: Software Engineering Daily on Apple Podcasts
     type: Podcast
   - url: https://open.spotify.com/show/6UCtBYL29hwhw4YbTdX83N
