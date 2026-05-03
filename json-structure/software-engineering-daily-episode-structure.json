@@ -1,0 +1,19 @@
+{
+  "name": "Episode",
+  "description": "A Software Engineering Daily podcast episode with metadata, content, and engagement data.",
+  "fields": [
+    { "name": "id", "type": "string", "required": true, "description": "Unique episode identifier" },
+    { "name": "title", "type": "string", "required": true, "description": "Episode title" },
+    { "name": "description", "type": "string", "required": false, "description": "Full show notes" },
+    { "name": "summary", "type": "string", "required": false, "description": "Short episode summary" },
+    { "name": "audioUrl", "type": "uri", "required": true, "description": "Audio file URL" },
+    { "name": "duration", "type": "integer", "required": false, "description": "Duration in seconds" },
+    { "name": "publishedAt", "type": "datetime", "required": true, "description": "Publication timestamp" },
+    { "name": "episodeUrl", "type": "uri", "required": false, "description": "Episode web page URL" },
+    { "name": "imageUrl", "type": "uri", "required": false, "description": "Episode artwork URL" },
+    { "name": "guests", "type": "array<object>", "required": false, "description": "Featured guests with name, title, organization" },
+    { "name": "topics", "type": "array<string>", "required": false, "description": "Technical topic tags" },
+    { "name": "upvotes", "type": "integer", "required": false, "description": "Upvote count" },
+    { "name": "isPremium", "type": "boolean", "required": false, "description": "Premium-only flag" }
+  ]
+}

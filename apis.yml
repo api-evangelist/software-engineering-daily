@@ -7,15 +7,19 @@ description: >-
   featuring conversations with software engineers, startup founders, and technology
   leaders on topics ranging from distributed systems, cloud computing, databases,
   and programming languages to AI, machine learning, and the business of software.
+  The platform also offers a membership program for premium content and provides
+  open-source backend and mobile apps for community development.
 type: Index
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Media
   - Podcasts
   - Software Engineering
+  - Technical Content
+  - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/apis.yml
 created: '2026-03-24'
-modified: '2026-03-24'
+modified: '2026-05-02'
 specificationVersion: '0.19'
 apis:
   - aid: software-engineering-daily:podcast-rss-feed
@@ -60,6 +64,26 @@ apis:
         url: https://softwareengineeringdaily.github.io/Backend/gettingstarted/
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
+  - aid: software-engineering-daily:mobile-app
+    name: Software Engineering Daily Mobile App
+    description: >-
+      The Software Engineering Daily mobile application is an open-source React Native
+      app available on iOS and Android. It provides access to the full episode catalog,
+      topic-specific feeds, bookmarking, and offline playback. The source code is
+      publicly available on GitHub under the MIT license.
+    humanURL: https://github.com/SoftwareEngineeringDaily/se-daily-iOS
+    baseURL: https://softwareengineeringdaily.com
+    tags:
+      - Mobile
+      - iOS
+      - Android
+      - React Native
+      - Open Source
+    properties:
+      - type: GitHubRepository
+        url: https://github.com/SoftwareEngineeringDaily/se-daily-iOS
+      - type: GitHubRepository
+        url: https://github.com/SoftwareEngineeringDaily/SE-Daily-Android
 common:
   - url: https://softwareengineeringdaily.com/
     name: Software Engineering Daily Website
@@ -97,6 +121,12 @@ common:
   - url: https://github.com/softwareengineeringdaily
     name: Software Engineering Daily on GitHub
     type: GitHubOrganization
+  - url: https://softwareengineeringdaily.com/tos/
+    name: Terms of Service
+    type: TermsOfService
+  - url: https://softwareengineeringdaily.com/privacy-policy/
+    name: Privacy Policy
+    type: PrivacyPolicy
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com

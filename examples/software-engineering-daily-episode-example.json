@@ -1,0 +1,27 @@
+{
+  "id": "episode-20260502",
+  "title": "Building Reliable Distributed Systems with Consensus Protocols",
+  "description": "In this episode, we discuss the fundamentals of distributed consensus algorithms including Raft and Paxos, how they are implemented in production systems, and the tradeoffs engineers face when building strongly consistent distributed databases. We explore practical challenges such as leader election, log replication, and handling network partitions.",
+  "summary": "A deep dive into distributed consensus algorithms and their practical application in building reliable production systems.",
+  "audioUrl": "https://cdn.softwareengineeringdaily.com/2026/05/02/consensus-protocols.mp3",
+  "duration": 3847,
+  "publishedAt": "2026-05-02T06:00:00Z",
+  "episodeUrl": "https://softwareengineeringdaily.com/2026/05/02/building-reliable-distributed-systems/",
+  "imageUrl": "https://softwareengineeringdaily.com/wp-content/uploads/2026/05/consensus.jpg",
+  "guests": [
+    {
+      "name": "Jordan Chen",
+      "title": "Principal Engineer",
+      "organization": "CockroachLabs"
+    }
+  ],
+  "topics": [
+    "Distributed Systems",
+    "Consensus Protocols",
+    "Raft",
+    "Databases",
+    "Reliability Engineering"
+  ],
+  "upvotes": 142,
+  "isPremium": false
+}

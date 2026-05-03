@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://api-evangelist.com/schemas/software-engineering-daily/episode",
+  "title": "Episode",
+  "description": "A Software Engineering Daily podcast episode including metadata, content, and engagement data.",
+  "type": "object",
+  "required": ["id", "title", "publishedAt", "audioUrl"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the episode."
+    },
+    "title": {
+      "type": "string",
+      "description": "Title of the episode."
+    },
+    "description": {
+      "type": "string",
+      "description": "Full show notes and episode description."
+    },
+    "summary": {
+      "type": "string",
+      "description": "Short summary of the episode content."
+    },
+    "audioUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the episode audio file (MP3 or AAC)."
+    },
+    "duration": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Episode duration in seconds."
+    },
+    "publishedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 timestamp when the episode was published."
+    },
+    "episodeUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the episode page on softwareengineeringdaily.com."
+    },
+    "imageUrl": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL of the episode artwork image."
+    },
+    "guests": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Full name of the guest."
+          },
+          "title": {
+            "type": "string",
+            "description": "Professional title of the guest."
+          },
+          "organization": {
+            "type": "string",
+            "description": "Company or organization the guest represents."
+          }
+        }
+      },
+      "description": "List of guests featured in the episode."
+    },
+    "topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "Technical topics covered in the episode (e.g., 'Kubernetes', 'Machine Learning')."
+    },
+    "upvotes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Number of upvotes the episode has received."
+    },
+    "isPremium": {
+      "type": "boolean",
+      "description": "Whether this episode requires a premium membership to access.",
+      "default": false
+    }
+  },
+  "additionalProperties": false
+}

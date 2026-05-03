@@ -1,0 +1,62 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "sed": "https://api-evangelist.com/vocab/software-engineering-daily#",
+    "schema": "https://schema.org/",
+    "podcast": "https://podcastindex.org/namespace/1.0#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+
+    "Episode": "schema:PodcastEpisode",
+    "Podcast": "schema:PodcastSeries",
+    "Person": "schema:Person",
+    "Organization": "schema:Organization",
+
+    "id": "@id",
+    "type": "@type",
+
+    "title": "schema:name",
+    "name": "schema:name",
+    "description": "schema:description",
+    "summary": "schema:abstract",
+
+    "audioUrl": {
+      "@id": "schema:associatedMedia",
+      "@type": "@id"
+    },
+    "duration": {
+      "@id": "schema:duration",
+      "@type": "xsd:integer"
+    },
+    "publishedAt": {
+      "@id": "schema:datePublished",
+      "@type": "xsd:dateTime"
+    },
+    "episodeUrl": {
+      "@id": "schema:url",
+      "@type": "@id"
+    },
+    "imageUrl": {
+      "@id": "schema:image",
+      "@type": "@id"
+    },
+    "guests": {
+      "@id": "schema:author",
+      "@container": "@set"
+    },
+    "topics": "schema:keywords",
+    "upvotes": "sed:upvotes",
+    "isPremium": "sed:isPremium",
+
+    "organization": "schema:affiliation",
+    "jobTitle": "schema:jobTitle",
+
+    "feedUrl": {
+      "@id": "podcast:feedUrl",
+      "@type": "@id"
+    },
+    "language": "schema:inLanguage",
+    "explicit": "podcast:explicit",
+    "episodeNumber": "podcast:episode",
+    "season": "podcast:season"
+  }
+}

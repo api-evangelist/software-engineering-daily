@@ -1,0 +1,141 @@
+vocabulary:
+  name: Software Engineering Daily Vocabulary
+  description: >-
+    Domain vocabulary for the Software Engineering Daily podcast platform,
+    covering content types, episode metadata, user engagement, and topic
+    taxonomy used throughout the platform API and RSS feeds.
+  version: '1.0'
+  created: '2026-05-02'
+  modified: '2026-05-02'
+
+content-types:
+  - term: Episode
+    definition: >-
+      A single published podcast episode containing an audio recording, show
+      notes, and metadata. Episodes are the primary content unit of the
+      Software Engineering Daily platform.
+    properties:
+      - title
+      - description
+      - duration
+      - publishedAt
+      - audioUrl
+      - topics
+      - guests
+
+  - term: RSS Feed
+    definition: >-
+      A machine-readable XML document providing a syndication stream of episodes
+      following the RSS 2.0 specification with iTunes podcast extensions, compatible
+      with all major podcast clients and aggregators.
+    aliases:
+      - Podcast Feed
+      - Syndication Feed
+    related:
+      - Episode
+      - Topic Feed
+      - iTunes Extensions
+
+  - term: Topic Feed
+    definition: >-
+      A specialized RSS feed filtered to episodes matching a specific technical
+      topic such as Kubernetes, Machine Learning, or Distributed Systems,
+      allowing listeners to subscribe to only their area of interest.
+    related:
+      - RSS Feed
+      - Topic
+      - Episode
+
+  - term: Bookmark
+    definition: >-
+      A user-saved reference to an episode for later listening, stored in the
+      platform's backend and synchronized across the user's devices.
+    related:
+      - Episode
+      - User Account
+      - Playback
+
+  - term: Upvote
+    definition: >-
+      A positive quality signal applied by a logged-in user to an episode,
+      contributing to the platform's episode ranking and recommendation signals.
+    related:
+      - Episode
+      - User Engagement
+      - Recommendation
+
+  - term: Playback Position
+    definition: >-
+      The stored timestamp indicating how far through an episode a user has
+      listened, enabling cross-device resume functionality.
+    related:
+      - Episode
+      - User Account
+      - Bookmark
+
+topics:
+  - term: Distributed Systems
+    definition: >-
+      Software systems where components are distributed across multiple networked
+      computers, coordinating their actions by passing messages. Includes topics
+      like consensus algorithms, distributed databases, and microservices.
+
+  - term: Cloud Computing
+    definition: >-
+      The delivery of computing services over the Internet, including infrastructure,
+      platforms, and software as a service (IaaS, PaaS, SaaS). Covers AWS, GCP,
+      Azure, and multi-cloud architectures.
+
+  - term: Machine Learning
+    definition: >-
+      A subset of artificial intelligence that enables systems to learn from data
+      without explicit programming. Includes deep learning, NLP, computer vision,
+      and MLOps practices.
+
+  - term: DevOps
+    definition: >-
+      Cultural and technical practices that combine software development and
+      IT operations, emphasizing automation, continuous delivery, and collaboration
+      to shorten the software delivery cycle.
+
+  - term: Open Source
+    definition: >-
+      Software with source code made available under licenses that allow anyone
+      to inspect, modify, and distribute the code, fostering community-driven
+      development and innovation.
+
+  - term: Programming Languages
+    definition: >-
+      Topics covering programming language design, runtime environments, standard
+      libraries, and ecosystem tooling for languages such as Python, Go, Rust,
+      JavaScript, and others.
+
+  - term: Security
+    definition: >-
+      Software and infrastructure security topics including application security,
+      cloud security, cryptography, identity management, and security engineering
+      best practices.
+
+  - term: Data Engineering
+    definition: >-
+      The design, building, and maintenance of data infrastructure including data
+      pipelines, data warehouses, stream processing systems, and analytics platforms.
+
+platform-concepts:
+  - term: Premium Membership
+    definition: >-
+      A paid subscription tier offering access to exclusive content, ad-free
+      listening, early access to episodes, and other benefits not available to
+      free users.
+
+  - term: Guest
+    definition: >-
+      An expert, engineer, or leader interviewed in a Software Engineering Daily
+      episode. Guests are typically identified with their name, title, and
+      organizational affiliation.
+
+  - term: Show Notes
+    definition: >-
+      Accompanying text published alongside each episode providing a summary,
+      key discussion points, links to referenced technologies, tools, and
+      resources mentioned during the interview.
