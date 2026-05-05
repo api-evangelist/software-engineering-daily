@@ -1,0 +1,13 @@
+{
+  "repo": "software-engineering-daily",
+  "feeds": [
+    {
+      "source": "https://softwareengineeringdaily.com/feed/podcast/",
+      "feed_url": "https://softwareengineeringdaily.com/feed/podcast/",
+      "saved": 10,
+      "title": "Software Engineering Daily"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-05-03T23:36:42Z"
+}
