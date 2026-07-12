@@ -85,6 +85,8 @@ apis:
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/SE-Daily-Android
 common:
+  - type: DomainSecurity
+    url: security/software-engineering-daily-domain-security.yml
   - url: https://softwareengineeringdaily.com/
     name: Software Engineering Daily Website
     type: Website
