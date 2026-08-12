@@ -97,6 +97,9 @@ apis:
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/SE-Daily-Android
 common:
+  - type: License
+    name: MIT
+    url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/blob/master/LICENSE
   - type: DomainSecurity
     url: security/software-engineering-daily-domain-security.yml
   - url: https://softwareengineeringdaily.com/
