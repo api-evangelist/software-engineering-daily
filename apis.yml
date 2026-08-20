@@ -28,6 +28,12 @@ tags:
   - Podcasts
   - Software Engineering
   - Technical Content
+  - Open-Source
+tags_raw:
+  - Media
+  - Podcasts
+  - Software Engineering
+  - Technical Content
   - Open Source
 url: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/apis.yml
 created: '2026-03-24'
@@ -68,6 +74,11 @@ apis:
     baseURL: https://softwareengineeringdaily.com
     tags:
       - Episodes
+      - Open-Source
+      - Podcasts
+      - REST
+    tags_raw:
+      - Episodes
       - Open Source
       - Podcasts
       - REST
@@ -86,6 +97,12 @@ apis:
     humanURL: https://github.com/SoftwareEngineeringDaily/se-daily-iOS
     baseURL: https://softwareengineeringdaily.com
     tags:
+      - Mobile
+      - iOS
+      - Android
+      - React Native
+      - Open-Source
+    tags_raw:
       - Mobile
       - iOS
       - Android
