@@ -10,6 +10,19 @@ description: >-
   The platform also offers a membership program for premium content and provides
   open-source backend and mobile apps for community development.
 type: Index
+deliveryModel:
+  model: open-core
+  license: MIT
+  open_source: true
+  commercial: true
+  callable_host: false
+  label: Open core · an OSS project plus a commercial hosted product
+  confidence: high
+  source:
+  - license
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown
@@ -114,6 +127,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/SE-Daily-Android
 common:
+  - type: IssueTracker
+    url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/issues
+  - type: Releases
+    url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/releases
+  - type: ContributionGuide
+    url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/blob/master/CONTRIBUTING.md
   - type: License
     name: MIT
     url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/blob/master/LICENSE
