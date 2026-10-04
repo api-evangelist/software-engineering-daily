@@ -41,13 +41,14 @@ tags:
   - Podcasts
   - Software Engineering
   - Technical Content
-  - Open-Source
+  - Open Source
 tags_raw:
   - Media
   - Podcasts
   - Software Engineering
   - Technical Content
   - Open Source
+  - Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/software-engineering-daily/refs/heads/main/apis.yml
 created: '2026-03-24'
 modified: '2026-05-02'
@@ -63,7 +64,6 @@ apis:
       using any feed parsing library to access episode metadata, audio file URLs,
       descriptions, and publication dates.
     humanURL: https://softwareengineeringdaily.com/
-    baseURL: https://softwareengineeringdaily.com
     tags:
       - Feed
       - Podcasts
@@ -84,10 +84,9 @@ apis:
       API documentation is available in Swagger format at the /api/docs path.
       The codebase is MIT-licensed and available on GitHub.
     humanURL: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api
-    baseURL: https://softwareengineeringdaily.com
     tags:
       - Episodes
-      - Open-Source
+      - Open Source
       - Podcasts
       - REST
     tags_raw:
@@ -95,6 +94,7 @@ apis:
       - Open Source
       - Podcasts
       - REST
+      - Open-Source
     properties:
       - type: Documentation
         url: https://softwareengineeringdaily.github.io/Backend/gettingstarted/
@@ -108,19 +108,19 @@ apis:
       topic-specific feeds, bookmarking, and offline playback. The source code is
       publicly available on GitHub under the MIT license.
     humanURL: https://github.com/SoftwareEngineeringDaily/se-daily-iOS
-    baseURL: https://softwareengineeringdaily.com
     tags:
       - Mobile
       - iOS
       - Android
       - React Native
-      - Open-Source
+      - Open Source
     tags_raw:
       - Mobile
       - iOS
       - Android
       - React Native
       - Open Source
+      - Open-Source
     properties:
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/se-daily-iOS
