@@ -127,6 +127,12 @@ apis:
       - type: GitHubRepository
         url: https://github.com/SoftwareEngineeringDaily/SE-Daily-Android
 common:
+  - type: Plans
+    url: plans/software-engineering-daily-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/software-engineering-daily-rate-limits.yml
+  - type: FinOps
+    url: finops/software-engineering-daily-finops.yml
   - type: IssueTracker
     url: https://github.com/SoftwareEngineeringDaily/software-engineering-daily-api/issues
   - type: Releases
